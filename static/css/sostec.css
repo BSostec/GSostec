@@ -1,0 +1,199 @@
+/* SOSTEC CSS */
+
+/* *****************************************************
+* SOSTEC FOOTER TOP
+***************************************************** */
+.sostec-footer-top.bg-blue {
+    background: #2DAEBF
+}
+
+.sostec-footer-top.bg-fblue {
+    background: #13A7C7
+}
+
+
+
+.sostec-footer-top.bg-dgreen {
+    background: #0c4d78;
+}
+.sostec-footer-top {
+    padding: 40px 0;
+    color: white;
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #23527c;
+}
+.sostec-dot-com a {
+    color: #95a105;
+    font-weight: bold;
+}
+
+/* SOSTEC FOOTER TOP PROPERTY */
+
+.sostec-footer-top .property {
+    text-align: center;
+}
+
+.sostec-footer-top .property .property-info {
+    padding-top: 20px;
+}
+.sostec-footer-top .property .learn-links {
+    background-position: center -325px;
+}
+.sostec-footer-top .property h4 {
+    font-size: 1.25em;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sostec-footer-top .property .learn-links ul, .sostec-footer-top .property .support-links ul, .sostec-footer-top .property .connect-links ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.sostec-footer-top .property .support-links {
+    padding: 50px 0 0 0;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    background: url(//zurb.com/assets/icons/footer-top-icons-d13a8f114534b2024d968789ce673e32.png) no-repeat center 0;
+    height: 220px;
+    margin-bottom: 30px;
+}
+
+.sostec-footer-top .property .connect-links {
+    padding: 50px 0 0 0;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    background: url(//zurb.com/assets/icons/footer-top-icons-d13a8f114534b2024d968789ce673e32.png) no-repeat center 0;
+    height: 220px;
+    margin-bottom: 30px;
+}
+
+.sostec-footer-top .property .learn-links {
+    padding: 50px 0 0 0;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    background: url(//zurb.com/assets/icons/footer-top-icons-d13a8f114534b2024d968789ce673e32.png) no-repeat center 0;
+    height: 220px;
+    margin-bottom: 30px;
+}
+
+.sostec-footer-top .property .learn-links ul li, .sostec-footer-top .property .support-links ul li, .sostec-footer-top .property .connect-links ul li {
+    line-height: 20px;
+}
+.sostec-footer-top .property p, .sostec-footer-top .property li, .sostec-footer-top .property a {
+    font-size: 13px;
+    line-height: 21px;
+    color: white;
+}
+.sostec-footer-top .property .connect-links .button {
+    font-size: 12px;
+    font-weight: normal;
+    background: rgba(0,0,0,0.1);
+    color: #FFF !important;
+    font-weight: bold;
+    text-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border: none;
+    padding: 6px 16px;
+}
+
+
+/* SOSTEC FOOTER TOP GLOBAL */
+
+.sostec-footer-top .global {
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+.sostec-footer-top .global .footer-link-block span.title {
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.125em;
+    margin-bottom: 5px;
+}
+.sostec-footer-top .global .footer-link-block span {
+    display: block;
+    color: white;
+    font-size: 0.75em;
+    padding-left: 40px;
+    line-height: 18px;
+}
+
+.sostec-footer-top .global .footer-link-block.foundation {
+    background: url(//zurb.com/assets/icons/footer-foundation-ac6184a4dfac4d662581a40bbb95bfc6.png) left top no-repeat;
+}
+
+.sostec-footer-top .global .footer-link-block.services {
+    background: url(//zurb.com/assets/icons/footer-studios-f56075c2b4c7fa565932106309bbbb5c.png) left top no-repeat;
+}
+
+.sostec-footer-top .global .footer-link-block.apps {
+    background: url(//zurb.com/assets/icons/footer-products-457e76dfa2fb989895638775b3e69c01.png) left top no-repeat;
+}
+.sostec-footer-top .global .footer-link-block.expo {
+    background: url(//zurb.com/assets/icons/footer-expo-d7bbc1543c177028c1af529036cbd7d6.png) left top no-repeat;
+}
+.sostec-footer-top .global .footer-link-block {
+    font-weight: normal;
+    display: block;
+    margin: 30px 0 0 0;
+}
+
+/* *****************************************************
+* SOSTEC FOOTER BOTTOM
+***************************************************** */
+.sostec-footer-bottom {
+    background: #3B4951;
+    padding: 24px 0 10px;
+}
+.sostec-footer-bottom ul.home-social {
+    display: block;
+    float: right;
+    margin-bottom: 8px;
+}
+.sostec-footer-bottom ul.home-social li:first-child {
+    margin-left: 0;
+}
+.sostec-footer-bottom ul.home-social li {
+    list-style: none;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.sostec-footer-bottom ul.home-social li a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: url(//zurb.com/assets/icons/social-1c71e8186ecefc2eb97b9846b6d34b99.png) no-repeat center 0;
+}
+.sostec-footer-bottom ul.home-social li a.youtube {
+    background: url(//zurb.com/assets/icons/youtube-b0574b9b8537f01ba9129707f9a60501.png) no-repeat center 0;
+}
+.sostec-footer-bottom ul.home-social li a.twitter {
+    background-position: center 0;
+}
+.sostec-footer-bottom ul.home-social li a.facebook {
+    background-position: center -200px;
+}
+
+.sostec-footer-bottom ul.sostec-links {
+    margin: 0;
+    display: inline-block;
+}
+.sostec-footer-bottom ul.sostec-links li {
+    display: block;
+    float: left;
+    margin-left: 6px;
+    font-family: "Proxima Nova Condensed", "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875em;
+}
+.sostec-footer-bottom ul.sostec-links li a {
+    color: #6C767C;
+    padding: 3px 6px;
+}
+.sostec-footer-bottom p.copyright {
+    margin: 6px 0 0;
+    font-size: 0.75em;
+    color: #6C767C;
+}
+
+

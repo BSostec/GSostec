@@ -1,0 +1,402 @@
+/* CUSTOM.CSS */
+
+/* *****************************************************
+* GENERAL SECTION
+***************************************************** */
+* {
+    outline: none;
+}
+
+body {
+    /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-weight: 400;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.off-canvas-wrapper {
+    background-color: #222;
+}
+
+/* *****************************************************
+* NAV - MOBILE
+***************************************************** */
+
+.title-bar {
+    background-color: #222;
+    height: 60px;
+    padding-top: 17px;
+}
+
+#mobile-menu {
+    background-color: #222;
+    padding: 10px;
+}
+
+#mobile-menu li {
+    list-style: none;
+}
+
+#mobile-menu a {
+    color: rgba(255,255,255,0.6);
+    font-weight: bold;
+    line-height: 2;
+}
+
+#mobile-menu a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.js-off-canvas-exit {
+    background: rgba(0,0,0,0.5);
+
+}
+
+/* *****************************************************
+* NAV - DESKTOP
+***************************************************** */
+.nav-desktop {
+    background-color: #222;
+    height:80px;
+    padding: 0;
+}
+
+.site-logo {
+    color: white;
+    line-height: 80px;
+}
+
+.nav-desktop .menu-desktop{
+    line-height: 80px;
+    background-color: transparent;
+}
+.divider {
+    color: lightgrey;
+}
+
+.menu > li > a {
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white;
+}
+.menu > li > a:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+.menu .active > a {
+    background: rgba(255,255,255,0.3);
+}
+
+/* *****************************************************
+* HERO SECTION
+***************************************************** */
+/*.hero {
+    !*background-color: #999;*!
+    padding: 80px 0;
+    height: 400px;
+    !*background-image: url("../img/pattern.png");*!
+    background: url("../img/pattern.png") #999;
+}
+.hero h1,
+.hero p {
+    color: rgba(255,255,255,0.8);
+    width: 70%;
+}*/
+
+.media img {
+    width: 100%;
+    max-width: 2000px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* *****************************************************
+* MAIN SECTION
+***************************************************** */
+.main {
+    padding: 80px 0;
+
+}
+
+/* *****************************************************
+* FOOTER SECTION
+***************************************************** */
+footer {
+    background-color: #222;
+    padding: 24px 0 10px 0;
+}
+footer h4 {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.3em;
+}
+footer hr {
+    border-color: rgba(255,255,255,0.1);
+    margin: 10px 0;
+}
+footer a {
+    display: block;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.8em;
+}
+footer a span {
+    font-weight: bold;
+    color: rgba(255,255,255,0.3);
+}
+footer a:hover {
+    color: rgba(255,255,255,0.8);
+}
+
+/* *****************************************************
+* MEDIA QUERIES
+***************************************************** */
+
+/*
+@media (max-width: 639px) {
+    .nav-desktop {
+        display: none;
+    }
+}
+*/
+@media (max-width: 875px) {
+    .hero h1,
+    .hero p {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px)
+    .interior-header .subnav {
+        float: none;
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+/* *****************************************************
+* VARIOUS DIV
+***************************************************** */
+
+.marketing-hero {
+    background: #074E68;
+    background-image: url("../img/header-background.gif");
+    position: relative;
+    padding: 2.5rem 0 4.5rem;
+    text-align: center;
+    overflow: visible;
+}
+.marketing-hero .hero-main-header {
+    font-size: 2.875rem;
+    text-align: center;
+    color: #fefefe;
+    margin: 0;
+}
+
+.marketing-hero h1, .marketing-hero h3, .marketing-hero h4 {
+    color: #fff;
+}
+.marketing-hero h1 {
+    font-size: 3em;
+    line-height: 1.0;
+    font-weight: 500;
+}
+
+
+.page-subheader.with-subheader {
+    margin-bottom: 0.35rem;
+    text-align: center;
+}
+
+.page-content h2 {
+    font-weight: 200;
+    color: #000;
+}
+.page-subheader {
+    margin-bottom: 3rem;
+}
+
+.page-subheader+.subheader {
+    margin-bottom: 3rem;
+}
+.subheader {
+    font-size: 1.125rem;
+}
+
+.subheader {
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #8a8a8a;
+}
+
+.block-pattern {
+    margin-bottom: 3rem;
+}
+
+.supporticons img {
+    display: block;
+    padding: 20px;
+    height: 200px;
+    margin: 1rem auto 0 auto;
+}
+
+.newsletter-signup {
+    padding: 16px 0;
+    background: #085a78;
+    background-image: url("../img/swirl.png");
+}
+.newsletter-signup a {
+    color: #fefefe;
+}
+.newsletter-signup .button {
+    background: #1d92cf;
+}
+.newsletter-signup h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #fefefe;
+    line-height: 24px;
+}
+.newsletter-signup p {
+    clear: both;
+    margin-bottom: 0px;
+    font-size: 13px;
+    color: #fefefe;
+}
+
+
+/* NEXT / PREV BUTTONS */
+a.prev, a.next, .slick-prev, .slick-next {
+    width: 27px;
+    height: 50px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-indent: -9999em;
+    content: '';
+    z-index: 1;
+}
+a.prev, .slick-prev {
+    background-image: url("../img/thin-arrow-blk-left.svg");
+    background-position: left;
+}
+a.next, .slick-next {
+    background-image: url("../img/thin-arrow-blk-right.svg");
+    background-position: right;
+}
+a.prev.white {
+    background-image: url("../img/thin-arrow-wht-left.svg");
+}
+a.next.white {
+    background-image: url("../img/thin-arrow-wht-right.svg");
+}
+a.prev.disabled, a.next.disabled {
+    filter: alpha(opacity=20);
+    -khtml-opacity: 0.2;
+    -moz-opacity: 0.2;
+    opacity: 0.2;
+    cursor: default;
+}
+a.prev, .slick-prev {
+    left: 0;
+}
+a.next, .slick-next {
+    right: 0;
+}
+a.prev:hover, .slick-prev:hover, .slick-prev:focus, a.next:hover, .slick-next:hover, .slick-next:focus {
+    background-color: transparent;
+}
+
+/*
+-------------------------------------------
+	full-wdith carousel
+-------------------------------------------
+*/
+
+.fullpage-carousel .prev, .fullpage-carousel .next {
+    -webkit-transition: all .5s ease-out .25s;
+    -moz-transition: all .5s ease-out .25s;
+    -o-transition: all .5s ease-out .25s;
+    transition: all .5s ease-out .25s;
+}
+.fullpage-carousel .prev {
+    opacity: 0;
+    left: 50px;
+}
+.fullpage-carousel .next {
+    opacity: 0;
+    right: 50px;
+}
+.fullpage-carousel:hover .prev {
+    opacity: 1;
+    left: 10px;
+}
+.fullpage-carousel:hover .next {
+    opacity: 1;
+    right: 10px;
+}
+.fullpage-carousel .single-carousel {
+    padding: 0;
+    height: 100px;
+    overflow: hidden;
+}
+.fullpage-carousel .single-carousel-wrapper {
+    margin: 0;
+    position: relative;
+}
+.fullpage-carousel .billboard {
+    max-height: none;
+    border-width: 0px;
+}
+.fullpage-carousel .single-carousel span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+.fullpage-carousel .single-carousel .hero.billboard .media img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-height: none;
+    vertical-align: auto;
+}
+.fullpage-carousel .pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+.fullpage-carousel .pagination a, .pagination.dots a {
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border: 0 none;
+    opacity: .5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: inline-block;
+}
+.fullpage-carousel .pagination a span, .pagination.dots a span {
+    display: none;
+}
+.fullpage-carousel .pagination a.selected, .pagination.dots a.selected {
+    opacity: .7;
+}
+.pagination.dots a {
+    background-color: #222;
+}
+
+
